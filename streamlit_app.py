@@ -1,6 +1,6 @@
 import streamlit as st
 import fitz  # PyMuPDF
-import openai
+import openai>=1.0.0
 
 st.set_page_config(page_title="AI Loan Dashboard", page_icon="💼", layout="wide")
 st.title("💼 AI Loan Analyzer Dashboard")
